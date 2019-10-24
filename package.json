@@ -1,0 +1,21 @@
+{
+  "name": "dashlane-to-passbolt-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.11.5",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "json-2-csv": "^3.5.7"
+  }
+}
